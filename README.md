@@ -7,7 +7,7 @@ When planning on getting your data into the cloud as a part of an application mi
 
 <Insert image>
   
-##What you'll accomplish?
+## What you'll accomplish?
 
 Create a data import job using the AWS Console. Afterwards, AWS will prepare and ship a Snowball appliance to the address you specified.
 Transfer your data onto the Snowball using the client. Then ship the Snowball back to AWS. The integrated E-Ink label on the Snowball makes this easy for you by automatically updating 
