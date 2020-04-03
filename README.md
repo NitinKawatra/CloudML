@@ -1,8 +1,8 @@
 # CloudML
-# Kinesis Key Concepts:
+##	Overview
 
-## What is a shard?
-Shard is the base throughput unit of an Amazon Kinesis data stream. One shard provides a capacity of 1MB/sec data input and 2MB/sec data output. One shard can support up to 1000 PUT records per second. 
-You will specify the number of shards needed when you create a data stream. For example, you can create a data stream with two shards. This data stream has a throughput of 2MB/sec data input and 4MB/sec data output, and allows up to 2000 PUT records per second. 
-You can monitor shard-level metrics in Amazon Kinesis Data Streams and add or remove shards from your data stream dynamically as your data throughput changes by resharding the data stream.
+Snowball is a petabyte-scale data transport solution that uses secure appliances to transfer large amounts of data into and out of the AWS cloud. Using Snowball addresses common challenges with large-scale data transfers including high network costs, long transfer times, and security concerns.
 
+When planning on getting your data into the cloud as a part of an application migration or a data center shutdown, you will run into the hard limits of data transport. When your Internet speeds are not enough to keep up with your data migration plan, it’s time to consider AWS Snowball. The Snowball appliance allows you to move archives, data lakes, and whatever data you have at faster-than Internet speeds right into Amazon S3 buckets. From Amazon S3, data can be archived into Glacier or analyzed by other services such as AWS Redshift or EMR. This implementation guide will get you started with AWS Snowball's quick, simple, and secure process for migrating large amounts of data into AWS.
+
+<Insert image>
