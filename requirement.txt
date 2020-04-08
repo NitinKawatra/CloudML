@@ -1,0 +1,7 @@
+What you'll need before starting?
+
+Lots of data: Snowball is designed for large-scale data transfers. To keep things cost-efficient, we recommend using Snowball if you have at least 12 TB of data you would like to move to the cloud.
+An AWS Account: You will need an AWS account to begin provisioning Amazon S3 buckets to store your data and to request a Snowball appliance. Sign up for AWS.
+An AWS IAM User: Set up an AWS Identity and Access Management (IAM) User to access Snowball. See Create an IAM User for more information. 
+IT Skill level: You will need a basic understanding of storage and networking technologies and familiarity with the command line interface for Linux, Mac, or Windows.
+AWS Experience: No previous experience with AWS is needed to follow this guide.
