@@ -55,22 +55,34 @@ Perform local compute and storage workloads, without transferring data. You can 
 Step1: Plan your job
 Select destination country, select import into Amazon S3, and click on Next.
 
+https://github.com/Nitink-aws/CloudML/blob/master/Image/Image1.png
+
 Step2: Give shipping details
 Select an existing shipping address or add a new address, choose appropriate shipping speed based on your need, and provide tax information. Click Next after these details are filled correctly.
 
+https://github.com/Nitink-aws/CloudML/blob/master/Image/Image2.png
+
 Step3: Give job details
 Provide Job name, choose the type of device snowball or snowball edge(recommended) and provide the S3 bucket name where you would like to import the data. Click Next
+
+https://github.com/Nitink-aws/CloudML/blob/master/Image/Image3.png
 
 Step4: Set Security
 Create or select an IAM role that snowball will assume to import data to Amazon S3.
 Select the default AWS KMS key to encrypt your data. Click Next.
 You can find below the policy document that specifies the permissions assigned to a role while creating it.
 
+https://github.com/Nitink-aws/CloudML/blob/master/Image/Image4.png
+
 Step5: Set notifications
 Create new SNS topic to receive job change status. Click Next
 
+https://github.com/Nitink-aws/CloudML/blob/master/Image/Image5.png
+
 Step6: Review
 Review all the provided details and click on create job.
+
+https://github.com/Nitink-aws/CloudML/blob/master/Image/Image6.png
 
 You can track the job status by clicking on the job on AWS console. Follow the instructions before you use snowball.
 
