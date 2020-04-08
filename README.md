@@ -19,11 +19,24 @@ See your data securely imported into the cloud and stored in Amazon S3. When we 
 ## Estimating Monthly Costs:
 
 Snowball pricing has four main cost components: 
+
 (1) a service fee for each job you run, 
+
 (2) data transfer fees from Amazon S3, 
+
 (3) the shipping costs to transport a Snowball appliance to and from your address, and 
+
 (4) the number of days you keep Snowball onsite.
+
 The total cost of moving your data into AWS will vary depending on the amount. There is a service charge of $250 for the appliance and an overage penalty of $15/day if you keep it for more than 10 days. Data transfers into Amazon S3 are free. Shipping charges are based on your location and your carrier.
 Example: Let's say you want to import 10 TB into the US East Region. A 50 TB Snowball device would cost $200 for the first 10 days, and $15 days thereafter. So, the Snowball import cost for 10 TB would be a onetime $200 (assuming 10 days or fewer). Data transfer-in would be $0.00 (free). Additional charges including S3 requests made during the import and monthly charges for S3 Standard will apply. These charges will vary based on the number of objects and Region used. The shipping cost would be variable depending on your location.
 
 
+##	Types of Snowball jobs
+## Import into Amazon S3
+AWS will ship an empty device to you for storage and compute workloads. You'll transfer your data onto it and ship it back. After AWS gets it, your data will be moved.
+
+## How Import works:
+Each import job uses a single Snowball appliance. After you create a job in the AWS Snowball Management Console or the job management API, we ship you a Snowball. When it arrives in a few days, you’ll connect the Snowball to your network and transfer the data that you want imported into Amazon S3 onto that Snowball using the Snowball client or the Amazon S3 Adapter for Snowball. When you’re done transferring data, ship the Snowball back to AWS, and we’ll import your data into Amazon S3.
+
+![alt text](https://github.com/Nitink-aws/CloudML/blob/master/Image/Architecture.png)
