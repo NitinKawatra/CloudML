@@ -55,7 +55,7 @@ Perform local compute and storage workloads, without transferring data. You can 
 Step1: Plan your job
 Select destination country, select import into Amazon S3, and click on Next.
 
-https://github.com/Nitink-aws/CloudML/blob/master/Image/Image1.png
+![alt text](https://github.com/Nitink-aws/CloudML/blob/master/Image/Image1.png)
 
 Step2: Give shipping details
 Select an existing shipping address or add a new address, choose appropriate shipping speed based on your need, and provide tax information. Click Next after these details are filled correctly.
