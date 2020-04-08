@@ -38,5 +38,3 @@ AWS will ship an empty device to you for storage and compute workloads. You'll t
 
 ## How Import works:
 Each import job uses a single Snowball appliance. After you create a job in the AWS Snowball Management Console or the job management API, we ship you a Snowball. When it arrives in a few days, you’ll connect the Snowball to your network and transfer the data that you want imported into Amazon S3 onto that Snowball using the Snowball client or the Amazon S3 Adapter for Snowball. When you’re done transferring data, ship the Snowball back to AWS, and we’ll import your data into Amazon S3.
-
-![alt text](https://github.com/Nitink-aws/CloudML/blob/master/Image/Architecture.png)
