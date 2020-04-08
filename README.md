@@ -36,6 +36,7 @@ Example: Let's say you want to import 10 TB into the US East Region. A 50 TB Sno
 ## Import into Amazon S3
 AWS will ship an empty device to you for storage and compute workloads. You'll transfer your data onto it and ship it back. After AWS gets it, your data will be moved.
 
+
 ## How Import works:
 Each import job uses a single Snowball appliance. After you create a job in the AWS Snowball Management Console or the job management API, we ship you a Snowball. When it arrives in a few days, you’ll connect the Snowball to your network and transfer the data that you want imported into Amazon S3 onto that Snowball using the Snowball client or the Amazon S3 Adapter for Snowball. When you’re done transferring data, ship the Snowball back to AWS, and we’ll import your data into Amazon S3.
 
