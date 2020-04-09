@@ -94,10 +94,10 @@ Review all the provided details and click on create job.
 
 You can track the job status by clicking on the job on AWS console. Follow the instructions before you use snowball.
 
+![alt text](https://github.com/Nitink-aws/CloudML/blob/master/Image/Image10.png)
+
 ## How does a snowball look like?
 
-
-![alt text](https://github.com/Nitink-aws/CloudML/blob/master/Image/Image10.png)
 
 
 ![alt text](https://github.com/Nitink-aws/CloudML/blob/master/Image/Image11.png)
