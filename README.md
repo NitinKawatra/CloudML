@@ -99,7 +99,6 @@ You can track the job status by clicking on the job on AWS console. Follow the i
 ## How does a snowball look like?
 
 
-
 ![alt text](https://github.com/Nitink-aws/CloudML/blob/master/Image/Image11.png)
 
 
