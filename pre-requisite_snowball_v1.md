@@ -1,8 +1,8 @@
-## Snowball create job parameters:
+# Snowball create job parameters:
 
-# Create_job (**kwargs)
+## Create_job (**kwargs)
 
-# Creates a job to import or export data between Amazon S3 and your on-premises data center. Your AWS account must have the right trust policies and permissions in place to create a job for Snowball.
+## Creates a job to import or export data between Amazon S3 and your on-premises data center. Your AWS account must have the right trust policies and permissions in place to create a job for Snowball.
 
 Parameters 
 * JobType (string) -- Defines the type of job that you're creating.
