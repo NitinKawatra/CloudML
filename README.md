@@ -31,6 +31,7 @@ Snowball pricing has four main cost components:
 The total cost of moving your data into AWS will vary depending on the amount. 
 
 Here are some estimates in a usual scenario :
+
 a) Service charge of $250 for the appliance  
 
 b) An overage penalty of $15/day if you keep it for more than 10 days 
