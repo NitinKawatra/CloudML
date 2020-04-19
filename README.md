@@ -28,8 +28,13 @@ Snowball pricing has four main cost components:
 
 (4) the number of days you keep Snowball onsite.
 
-The total cost of moving your data into AWS will vary depending on the amount. There is a service charge of $250 for the appliance and an overage penalty of $15/day if you keep it for more than 10 days. Data transfers into Amazon S3 are free. Shipping charges are based on your location and your carrier.
-Example: Let's say you want to import 10 TB into the US East Region. A 50 TB Snowball device would cost $200 for the first 10 days, and $15 days thereafter. So, the Snowball import cost for 10 TB would be a onetime $200 (assuming 10 days or fewer). Data transfer-in would be $0.00 (free). Additional charges including S3 requests made during the import and monthly charges for S3 Standard will apply. These charges will vary based on the number of objects and Region used. The shipping cost would be variable depending on your location.
+The total cost of moving your data into AWS will vary depending on the amount. 
+
+Here are some estimates in a usual scenario :
+a) Service charge of $250 for the appliance  
+b) An overage penalty of $15/day if you keep it for more than 10 days 
+3) Data transfers into Amazon S3 are free 
+4) Shipping charges are based on your location and your carrier. Example: Let's say you want to import 10 TB into the US East Region. A 50 TB Snowball device would cost $200 for the first 10 days, and $15 days thereafter. So, the Snowball import cost for 10 TB would be a onetime $200 (assuming 10 days or fewer). Data transfer-in would be $0.00 (free). Additional charges including S3 requests made during the import and monthly charges for S3 Standard will apply. These charges will vary based on the number of objects and Region used. The shipping cost would be variable depending on your location.
 
 
 ##	Types of Snowball jobs
